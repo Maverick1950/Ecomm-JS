@@ -473,7 +473,7 @@ main .section-hero {
 
   & .icons {
     font-size: 3.2rem;
-    color: #576ef0;
+    color: #f10888;
   }
 
   p {
@@ -505,7 +505,7 @@ main .section-hero {
 }
 
 .section-why--choose .text-align--left .why-choose--div {
-  align-items: start;
+  align-items: right;
 }
 
 .common-text--highlight {
