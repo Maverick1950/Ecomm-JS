@@ -228,10 +228,19 @@ textarea:focus-visible {
 
 .section-navbar {
   width: 100%;
+  background-image: linear-gradient(
+    to top right,
+    #f2eff2,
+    #f4ecf3,
+    #ebcded,
+    #f9e6f6,
+    #ebf3fe
+  );
 }
 
 .section-navbar .container {
   display: flex;
+ 
   justify-content: space-between;
   align-items: center;
   padding: 1.8rem; /* we override the main container padding property  */
@@ -239,6 +248,7 @@ textarea:focus-visible {
 
 .section-navbar img {
   width: 25%;
+  
 }
 
 .section-navbar .navbar ul {
@@ -285,10 +295,10 @@ main {
 
   background-image: linear-gradient(
     to top right,
-    #3d86fa,
-    #4484fb,
-    #679eff,
-    #b3d2ff,
+    #e69ede,
+    #f389e6,
+    #ebcded,
+    #f9e6f6,
     #ebf3fe
   );
 }
@@ -657,8 +667,9 @@ textarea {
 /***** Start Footer Section *****/
 footer {
   width: 100%;
-  background: var(--buttonColor);
-  color: var(--backgroundColor);
+  /* background: var(--buttonColor); */
+  background-color:pink;
+  /* color: var(--backgroundColor); */
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
   margin-top: 6.4rem;
@@ -686,14 +697,14 @@ footer {
 .footer-container a {
   display: block;
   text-decoration: none;
-  color: #cccccc;
+  color: black;
   margin-bottom: 1.5rem;
   font-size: 1.4rem;
 }
 
 .footer-container .content_1 p,
 .footer-container .content_4 p {
-  color: #cccccc;
+  color: #0a0000;
   margin: 2.5rem 0;
   font-size: 1.4rem;
 }
