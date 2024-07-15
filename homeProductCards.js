@@ -1,3 +1,4 @@
+import { homeQuantityToggle } from "./homeQuantityToggle";
 
 const productContainer = 
 document.querySelector("#productContainer");
@@ -17,8 +18,7 @@ export const showProductContainer = (products)=>{
         //copying data of api using importNode method
         const productClone = document.importNode(productTemplate.content, true);
         
-        //providing unique id to every card by changing it
-        productClone.querySelector("#cardValue").setAttrinute("id",`card${id}`);
+        productClone.querySelector("#cardValue").setAttribute("id", `card${id}`);
 
         //filling value using data from api
         productClone.querySelector(".productName").innerHTML = name;
@@ -30,6 +30,9 @@ export const showProductContainer = (products)=>{
         productClone.querySelector(".productPrice").innerHTML = `₹${price}`;
         productClone.querySelector(".productActualPrice").innerHTML = `₹${price * 4}`;
   
+        productClone.querySelector(".stockElement").addEventListener('click',(event) => {
+            homeQuantityToggle(event,id,stock);
+        })
 
         productContainer.append(productClone);
     });
