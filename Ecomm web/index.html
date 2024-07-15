@@ -213,14 +213,12 @@
 
     <!-- ========== Start Our Products Section ========== -->
 
-    <section class="section-products container">
-      <div class="">
+    <section class="section-products">
+      <div class="container">
         <h2 class="section-common--heading">Checkout Phone Store</h2>
       </div>
       <section class="container">
-        <div id="productContainer">
-
-        </div>
+        <div id="productContainer"></div>
       </section>
     </section>
 
@@ -246,9 +244,27 @@
           <p class="productDescription"></p>
 
           <div class="productPriceElement">
-            <p></p>
-            
+            <p class="productPrice"></p>
+            <p class="productActualPrice"></p>
           </div>
+
+          <div class="productStockElement">
+            <p class="productProperty">Total stocks available</p>
+            <p class="productStock"></p>
+          </div>
+
+          <div class="productQuantityElement">
+            <p class="productProperty">Quantity(Pieces)</p>
+            <div class="stockElement">
+              <button class="cartIncrement">+</button>
+              <p class="productQuantity">1</p>
+              <button class="cartDecrement">-</button>
+            </div>
+          </div>
+
+          <button class="add-to-cart-button">
+            <i class="fa-solid fa-cart-shopping"></i> Add to Cart
+          </button>
         </article>
       </div>
     </template>
@@ -260,9 +276,9 @@
     <!-- ========== Start Why Choose Us Section ========== -->
     <section class="section-why--choose">
       <div class="container">
-        <h2 class="section-common--heading">Why Choose Thapa Store</h2>
+        <h2 class="section-common--heading">Why Choose Phone Store</h2>
         <p class="section-common--subheading">
-          Choose Thapa EduHub for a holistic, enriching learning experience that
+          Choose phone EduHub for a holistic, enriching learning experience that
           empowers you to achieve your goals.
         </p>
       </div>

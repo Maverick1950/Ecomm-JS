@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "laptop",
+        "category": "computers",
+        "brand":"Apple",
+        "price": 89990.99,
+        "stock":15,
+        "description":"Powerful laptop with a quad core processor,8GB RAM, 256 GB SSD, and a 14-inch FHD Display.",
+        "image": "./public/lapi.png"
+    },
+    {
+        "id": 2,
+        "name": "smartphone",
+        "category": "Mobiles",
+        "brand":"Apple",
+        "price": 990.99,
+        "stock":10,
+        "description":"Powerful Mobile with a IOS 16,8GB RAM, 256 GB Space, and a FHD Display.",
+        "image": "./public/mobiles.png"
+    },
+    {
+        "id": 3,
+        "name": "wireless HeadPhones",
+        "category": "Headphones",
+        "brand":"Apple",
+        "price": 89990.99,
+        "stock":15,
+        "description":"Powerful laptop with a quad core processor,8GB RAM, 256 GB SSD, and a 14-inch FHD Display.",
+        "image": "./public/headphone.png"
+    },
+    {
+        "id": 4,
+        "name": "Watches",
+        "category": "watch",
+        "brand":"Apple",
+        "price": 899.99,
+        "stock":19,
+        "description":"Powerful laptop with a quad core processor,8GB RAM, 256 GB SSD, and a 14-inch FHD Display.",
+        "image": "./public/watch.png"
+    },
+    {
+        "id": 5,
+        "name": "speaker",
+        "category": "sound",
+        "brand":"Apple",
+        "price": 8990.99,
+        "stock":15,
+        "description":"Powerful laptop with a quad core processor,8GB RAM, 256 GB SSD, and a 14-inch FHD Display.",
+        "image": "./public/speakers.png"
+    },
+    {
+        "id": 6,
+        "name": "Television",
+        "category": "TV",
+        "brand":"Apple",
+        "price": 99990.99,
+        "stock":6,
+        "description":"Powerful laptop with a quad core processor,8GB RAM, 256 GB SSD, and a 14-inch FHD Display.",
+        "image": "./public/tv.png"
+    }
+]
