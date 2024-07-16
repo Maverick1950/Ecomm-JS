@@ -1,4 +1,4 @@
-import { addToCart } from "./addtocart";
+import { addToCart } from "./Ecomm web/addtocart";
 import { homeQuantityToggle } from "./homeQuantityToggle";
 
 const productContainer = 
