@@ -1,5 +1,5 @@
-import { getCartProductFromLS } from "../getCartProducts";
-import { updateCartValue } from "../updateCartValue";
+import { getCartProductFromLS } from "./getCartProducts";
+import { updateCartValue } from "./updateCartValue";
 
 getCartProductFromLS();
 
@@ -17,7 +17,6 @@ price = price.replace("₹","");
 
 let existingProd = arrLocalStorageProduct.find(
     (curProd) => curProd.id === id
-    
 );
 
 if(existingProd && quantity > 1){
