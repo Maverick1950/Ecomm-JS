@@ -20,8 +20,8 @@ const showCartProduct = ()=>{
 
     let productClone = document.importNode(templateContainer.content,true);
     
-    const lSActualData = fetchQuantityFromCartLS(id,price,)
-
+    const lSActualData = fetchQuantityFromCartLS(id,price)
+    productClone.querySelector("#cardValue").setAttribute("id", `card${id}`);
     productClone.querySelector(".category").innerHTML = category;
     productClone.querySelector(".productImage").src = image;
     productClone.querySelector(".productImage").alt = image;
@@ -32,6 +32,7 @@ const showCartProduct = ()=>{
     productClone.querySelector(".remove-to-cart-button").addEventListener('click',()=>{
         removeProductFromCart(id);
     } )
+
 
     cartElement.append(productClone);
     });
