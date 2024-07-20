@@ -1,4 +1,5 @@
 import { getCartProductFromLS } from "./getCartProducts";
+import { updateCartProductToatl } from "./updateCartProductToatl";
 
 export const incrementDecrement = (event,id,stock,price)=>{
     const currentCardElement = document.querySelector(`#card${id}`);
@@ -49,4 +50,6 @@ export const incrementDecrement = (event,id,stock,price)=>{
 
     productQuantity.innerHTML = quantity;
     productPrice.innerText = localStoragePrice;
+
+    updateCartProductToatl();
 }

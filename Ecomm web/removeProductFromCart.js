@@ -1,4 +1,5 @@
 import { getCartProductFromLS } from "./getCartProducts";
+import { updateCartProductToatl } from "./updateCartProductToatl";
 import { updateCartValue } from "./updateCartValue";
 
 export const removeProductFromCart = (id)=>{
@@ -17,4 +18,5 @@ export const removeProductFromCart = (id)=>{
     }
 
     updateCartValue(cartProducts);
+    updateCartProductToatl();
 };
