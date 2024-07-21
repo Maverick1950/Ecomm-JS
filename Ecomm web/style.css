@@ -87,7 +87,7 @@ a {
 
 /*! layout */
 .container {
-  max-width: 142rem;
+  max-width: 147rem;
   margin: 0 auto;
   padding: 9.6rem 2.4rem;
 }
@@ -305,6 +305,7 @@ main {
 
 .custom-shape-divider-bottom-1696038172 {
   position: absolute;
+  
   bottom: 0;
   left: 0;
   width: 100%;
@@ -317,7 +318,7 @@ main {
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
-  height: 12rem;
+  height: 9.2rem;
 }
 
 .custom-shape-divider-bottom-1696038172 .shape-fill {
@@ -643,8 +644,8 @@ label {
 input,
 textarea {
   width: 100%;
-  padding: 1.4rem 2.4rem;
-  font-size: 1.6rem;
+  padding: 1.4rem 0.8rem ;
+  font-size: 1.2rem;
   letter-spacing: 0.1rem;
 }
 
@@ -667,9 +668,7 @@ textarea {
 /***** Start Footer Section *****/
 footer {
   width: 100%;
-  /* background: var(--buttonColor); */
   background-color:pink;
-  /* color: var(--backgroundColor); */
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
   margin-top: 6.4rem;
@@ -872,15 +871,13 @@ footer {
   font: inherit;
   border-radius: 6px;
   border: 0;
-  padding: 1rem 2.8rem;
+  padding: 1rem 1.8rem;
   background-color: var(--buttonColor);
   color: #fff;
   font-size: 1.6rem;
-  /* margin-top: 1.2rem; */
+ 
 
   &:hover {
-    box-shadow: inset 0px 1px 4px rgba(0, 0, 0, 0.16),
-      inset 0px 0px 0px 3px rgb(51, 51, 51);
     background-color: var(--backgroundColor);
     color: var(--buttonColor);
     cursor: pointer;
@@ -1044,7 +1041,7 @@ footer {
   .custom-shape-divider-bottom-1696038172 svg {
     position: relative;
     display: block;
-    width: calc(100% + 1.3px);
+    width: calc(100% + 0.3px);
     height: 8rem;
   }
 
